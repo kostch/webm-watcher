@@ -1,0 +1,47 @@
+.list {
+  overflow-y: auto;
+  margin-top: 40px;
+  height: 100vh;
+  width: 300px;
+  float: left;
+
+  .list-item {
+    list-style: none;
+    background: #90CAF9;
+    border: 2px solid #0D47A1;
+    color: #424242;
+    padding: 2px 4px;
+    margin: 3px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: all 0.2s;
+
+    input {
+      margin-right: 5px;
+    }
+
+    &:hover {
+      background: #E3F2FD;
+      color: #212121;
+      border: 2px solid #1A237E;
+    }
+  }
+
+  .search {
+    background: #90CAF9;
+    border: 2px solid #0D47A1;
+    color: #424242;
+    padding: 2px 4px;
+    margin: 3px 0;
+    outline: none;
+    box-sizing: border-box;
+    width: 100%;
+
+    &:hover {
+      background: #E3F2FD;
+      color: #212121;
+      border: 2px solid #1A237E;
+    }
+  }
+}
